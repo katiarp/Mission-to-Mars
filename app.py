@@ -1,8 +1,6 @@
-
-from turtle import update
 from flask import Flask, render_template, redirect, url_for
 from flask_pymongo import PyMongo
-import scraping
+import Scraping 
 
 app = Flask(__name__)
 
