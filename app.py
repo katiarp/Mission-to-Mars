@@ -21,4 +21,4 @@ def scrape():
     # .update_one(query_parameter, {"$set": data}, options)
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
